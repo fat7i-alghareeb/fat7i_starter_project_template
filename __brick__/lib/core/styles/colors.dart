@@ -1,7 +1,6 @@
 // 🐦 Flutter imports:
 
-import '../../shared/extensions/context_extension.dart';
-import '../../shared/extensions/string_extension.dart';
+import '../../shared/extensions/string_extension.dart'; 
 
 import '../../shared/imports/imports.dart';
 
@@ -65,17 +64,17 @@ class AppColors {
     ],
   );
 
-  //* shadow
-  static List<BoxShadow> primaryShadow(BuildContext context) {
-    return [
-      BoxShadow(
-        offset: const Offset(0, 4),
-        blurRadius: 16,
-        spreadRadius: 0,
-        color: "#331105".toColor().withOpacity(context.isDarkMode ? .45 : .15),
-      )
-    ];
-  }
+  // //* shadow
+  // static List<BoxShadow> primaryShadow(BuildContext context) {
+  //   return [
+  //     BoxShadow(
+  //       offset: const Offset(0, 4),
+  //       blurRadius: 16,
+  //       spreadRadius: 0,
+  //       color: "#331105".toColor().withOpacity(context.isDarkMode ? .45 : .15),
+  //     )
+  //   ];
+  // }
 
   static List<BoxShadow> greyShadow = [
     BoxShadow(

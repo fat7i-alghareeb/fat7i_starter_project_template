@@ -3,7 +3,7 @@ import 'package:dio_refresh_bot/dio_refresh_bot.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../auth_repo/auth_repo.dart';
+import './auth_repo.dart';
 
 import '../../../shared/entities/login_param.dart';
 import '../../../shared/entities/user.dart';
