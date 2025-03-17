@@ -4,7 +4,8 @@
 import 'package:flutter/material.dart';
 
 // 🌎 Project imports:
-
+import '../../shared/widgets/loading_progress.dart';
+import '../../shared/widgets/failed_widget.dart';
 import 'result.dart';
 
 class ResultBuilder<T> extends StatelessWidget {

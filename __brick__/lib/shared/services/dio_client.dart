@@ -2,7 +2,6 @@
 import 'package:dio/dio.dart';
 import 'package:dio_refresh_bot/dio_refresh_bot.dart';
 import 'package:flutter/foundation.dart';
-import 'package:../shared/services/refresh_token_helper.dart';
 
 // 🌎 Project imports:
 
@@ -11,6 +10,7 @@ import '../../core/auth_data_source/local/reactive_token_storage.dart';
 import '../../core/constants/app_url.dart';
 import '../../core/injection/injection.dart';
 import '../../core/models/auth_token_dio.dart';
+import 'refresh_token_helper.dart';
 import 'error_interceptor.dart';
 import 'localization_interceptor.dart';
 

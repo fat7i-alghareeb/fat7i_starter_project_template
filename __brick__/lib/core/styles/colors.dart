@@ -1,7 +1,7 @@
 // 🐦 Flutter imports:
 
-import 'package:../shared/extensions/context_extension.dart';
-import 'package:../shared/extensions/string_extension.dart';
+import '../../shared/extensions/context_extension.dart';
+import '../../shared/extensions/string_extension.dart';
 
 import '../../shared/imports/imports.dart';
 
